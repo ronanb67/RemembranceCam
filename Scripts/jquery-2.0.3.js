@@ -11,46 +11,7 @@
  *
  * Date: 2013-07-03T13:30Z
  */
-(function ($) {
-    $.fn.fullBg = function () {
-        var bgImg = $(this);
 
-        bgImg.addClass('fullBg');
-
-        function resizeImg() {
-            var imgwidth = bgImg.width();
-            var imgheight = bgImg.height();
-
-            var winwidth = $(window).width();
-            var winheight = $(window).height();
-
-            var widthratio = winwidth / imgwidth;
-            var heightratio = winheight / imgheight;
-
-            var widthdiff = heightratio * imgwidth;
-            var heightdiff = widthratio * imgheight;
-
-            if (heightdiff > winheight) {
-                bgImg.css({
-                    width: winwidth + 'px',
-                    height: heightdiff + 'px'
-                });
-            } else {
-                bgImg.css({
-                    width: widthdiff + 'px',
-                    height: winheight + 'px'
-                });
-            }
-        }
-
-        resizeImg();
-        $(window).resize(function () {
-            if (bgImg.hasClass("fullBg")) {
-                resizeImg();
-            }
-        });
-    };
-})(jQuery)
 (function( window, undefined ) {
 
 // Can't do this because several apps including ASP.NET trace
