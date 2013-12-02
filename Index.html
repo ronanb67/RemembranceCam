@@ -6,8 +6,8 @@
     <script src=//cdn.evercam.io/js/0.0.1/evercam.js></script>
     <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
     <script src="Scripts/jquery-2.0.3.js"></script>
-    <script src="Scripts/fullBg.js"></script>
-    <script src="JQuery%20fullbg/jquery.fullBG.js"></script>
+    <script src="Scripts/fullBg.js"></script>    
+    <script src="JQuery_fullbg/jquery.fullBG.js"></script>
     <link href="StyleSheet.css" rel="stylesheet" />
     <script type="text/javascript">
         (function () {
@@ -36,8 +36,8 @@
                                     <div class="auto-style1">
                                         <div style="height:480px;" id="divimg">
                                             <!--  -->
-                                            <img id='dublin-rememberance' height="480px" width="640px" alt="" onclick="ExitfullBackgroundImage()" />
-
+                                            <img id='fullbackground' src="http://192.168.1.101:8101/Streaming/channels/1/picture" height="480px" width="640px" alt="" onclick="ExitfullBackgroundImage()" />
+                                            <img id='dublin-rememberance'/>
                                             <script>
                                                 $(document).ready(function () {
 
@@ -55,7 +55,7 @@
                                         <div style="width:640px; height:44px; text-align:center;background-color:#FFFFFF;">
                                             <div style="height:30px; width:100px; float:left; margin:7px 10px 7px 20px">
                                                 <a href="http://www.evercam.com/" target="_blank"><img height="25" src="../../Images/logo.png" border="0" width="120" alt="http://www.evercam.com/" /></a>
-                                                
+
                                             </div>
                                             <div style="width: 30px; height: 43px; float: left; margin: 10px 10px 9px 47px; ">
                                                 <a href="http://www.camba.tv" target="_blank"><img height="25" src="../../Images/cambasmall.gif" width="143" border="0" alt="http://www.camba.tv" /></a>
@@ -76,7 +76,7 @@
                             <div style="width:640px; height:44px; text-align:left;  margin:auto">
                                 <div style="float:left;margin:10px 100px 10px -218px;">
                                     <a href="javascript:ShowAbout();" class="link1">About</a>
-                                    <a href="javascript:ExitfullBackgroundImage();" class="link1">Full Screen</a>                                   
+                                    <a href="javascript:ExitfullBackgroundImage();" class="link1">Full Screen</a>
                                     <a href="javascript:ShowComments();" class="link1">Comments</a>
                                 </div>
                                 <div style="width:67px; float:right; margin:7px 0px 10px 10px; text-align:right;">
@@ -128,11 +128,12 @@
                                         </td>
                                         <td style="width:380px; text-align:right;" valign="top">
                                             <div style="padding:1px;">
-                                                <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                                                <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                                                         src="https://maps.google.ie/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Garden+of+Remembrance,+Dublin&amp;aq=0&amp;oq=garden+of+&amp;sll=53.3834,
-                                                        -8.21775&amp;sspn=12.075056,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.353881,-6.264138&amp;spn=0.003842,0.006437&amp;z=16&amp;output=embed">
-                                                </iframe><br /><small><a href="https://maps.google.ie/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Garden+of+Remembrance,+Dublin&amp;aq=0&amp;oq=garden+of+&amp;sll=53.3834,-8.21775&amp;sspn=12.075056,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.353881,-6.264138&amp;spn=0.003842,0.006437&amp;z=16"
-                                                                          style="color:#0000FF;text-align:left">View Larger Map</a></small>
+                                                        -8.21775&amp;sspn=12.075056,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.353881,-6.264138&amp;spn=0.003842,0.006437&amp;z=16&amp;output=embed"></iframe><br /><small>
+                                                    <a href="https://maps.google.ie/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Garden+of+Remembrance,+Dublin&amp;aq=0&amp;oq=garden+of+&amp;sll=53.3834,-8.21775&amp;sspn=12.075056,33.815918&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;ll=53.353881,-6.264138&amp;spn=0.003842,0.006437&amp;z=16"
+                                                       style="color:#0000FF;text-align:left">View Larger Map</a>
+                                                </small>
                                             </div>
                                         </td>
                                     </tr>
@@ -216,5 +217,6 @@
 
 
     </script>
+
 </body>
 </html>
