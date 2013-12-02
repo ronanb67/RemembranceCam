@@ -1,7 +1,14 @@
 ﻿ body {
                 font: normal normal 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
                 color: #222222;
-                background: #66bbdd url(gradients_light.png) repeat scroll top left;
+                background: #66bbdd; /* Old browsers */
+/*background: -moz-linear-gradient(top, #66bbdd 0%, #66bbdd 1%, #feffff 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ddf1f9), color-stop(1%,#66bbdd), color-stop(100%,#feffff)); 
+background: -webkit-linear-gradient(top, #66bbdd 0%,#66bbdd 1%,#feffff 100%); 
+background: -o-linear-gradient(top, #66bbdd 0%,#66bbdd 1%,#feffff 100%); 
+background: -ms-linear-gradient(top, #66bbdd 0%,#66bbdd 1%,#feffff 100%); 
+background: linear-gradient(to bottom, #66bbdd 0%,#66bbdd 1%,#feffff 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66bbdd', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */*/
                 padding: 0 40px 0px 40px;
             }
 
