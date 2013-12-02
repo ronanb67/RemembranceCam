@@ -36,18 +36,12 @@
                                     <div class="auto-style1">
                                         <div style="height:480px;" id="divimg">
                                             <!--  -->
-                                            <img id='fullbackground' src="http://admin:12345@89.101.225.158:8105/Streaming/channels/1/picture" height="480px" width="640px" alt="" onclick="ExitfullBackgroundImage()" />
-                                            <img id='dublin-rememberance'/>
+                                            <img id='fullbackground' evercam='dublin-rememberance' refresh="1000" height="480px" width="640px" alt="" onclick="ExitfullBackgroundImage()" />
+                                            <img />
                                             <script>
                                                 $(document).ready(function () {
 
-                                                    Evercam.setApiUrl('http://api.evercam.io/v1');
-
-
-                                                    $('#dublin-rememberance').evercam('snapshot', {
-                                                        name: 'dublin-rememberance',
-                                                        refresh: 4000
-                                                    });
+                                                    Evercam.setApiUrl('http://api.evercam.io/v1');                                                   
 
                                                 });
                                             </script>
