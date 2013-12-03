@@ -8,16 +8,15 @@
     background: linear-gradient(0deg, white,#66bbdd 80%) no-repeat;
 }
 
-            .fullBG {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                overflow: auto;
-                z-index: 1;
-                width:100%;
-                height:100%;                
-            }
-
+.fullBG {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: auto;
+    z-index: 1;
+    width:100%;
+    height:100%;                
+}
             .content-outer {
                 -moz-box-shadow: 0 0 20px #333333;
                 -webkit-box-shadow: 0 0 20px #333333;
