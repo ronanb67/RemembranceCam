@@ -149,18 +149,19 @@
         }
         function fullBackgroundImage() {
             IsFull = true;
-            $("#fullbackground").fullBg();
+            $("#fullbackground").fullBG();
         }
         function ExitfullBackgroundImage() {
             if (IsFull) {
                 $("#fullbackground").width(640);
                 $("#fullbackground").height(480);
-                $("#fullbackground").removeClass("fullBg");
+                $("#fullbackground").removeClass("fullBG");
                 IsFull = false;
             }
             else if (!IsFull) {
                 IsFull = true;
-                $("#fullbackground").fullBg();
+                $("#fullbackground").addClass("fullBG");
+                $("#fullbackground").fullBG();
             }
         }
         function ShowComments() {

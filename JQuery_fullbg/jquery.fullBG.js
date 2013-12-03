@@ -9,7 +9,7 @@
 	$.fn.fullBG = function(){
 		var el = $(this);
 
-		el.addClass( 'fullBg' );
+		el.addClass( 'fullBG' );
 
 		function resizeImg() {
 			var imgwidth = el.width(),
